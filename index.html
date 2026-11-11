@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Презентация проектов</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0d1117; color: #c9d1d9; text-align: center; padding: 40px 20px; margin: 0; }
+        .container { max-width: 800px; margin: 0 auto; background: #161b22; padding: 40px 30px; border-radius: 16px; border: 1px solid #30363d; box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+        
+        h1 { color: #f0f6fc; font-size: 28px; margin-bottom: 10px; }
+        
+        /* Стиль для текста после главного заголовка */
+        .subtitle { font-size: 16px; font-weight: 400; color: #8b949e; margin-top: 0; margin-bottom: 40px; }
+        
+        /* Блок для каждой игры */
+        .game-section { margin-bottom: 50px; text-align: left; } /* Текст выровнен по левому краю для удобства чтения */
+        
+        /* НОВОЕ: Стили для заголовка и описания игры */
+        .game-title { color: #f0f6fc; font-size: 22px; margin-bottom: 10px; text-align: center; font-weight: 600; }
+        .game-description { font-size: 15px; color: #c9d1d9; line-height: 1.6; margin-bottom: 25px; text-align: justify; }
+        
+        /* Плеер */
+        video { width: 100%; max-width: 100%; height: auto; border-radius: 12px; border: 1px solid #30363d; background: #000; display: block; margin: 0 auto; }
+        
+        /* Стиль для текста и ссылки */
+        .game-link-block { margin-top: 20px; font-size: 16px; color: #8b949e; text-align: center; }
+        .game-link { color: #58a6ff; text-decoration: none; font-weight: 500; }
+        .game-link:hover { text-decoration: underline; }
+        
+        /* Разделительная линия с отступом */
+        .divider { height: 1px; background-color: #30363d; border: none; margin: 40px 0 30px 0; }
+        .game-section:last-child .divider { display: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Iron Sport</h1>
+        <p class="subtitle"></p>
 
+        <!-- ================= БЛОК ИГРЫ №1 ================= -->
+        <div class="game-section">
+            <!-- НОВОЕ: Впиши сюда название игры -->
+            <h2 class="game-title">Трейлер</h2>
+            <!-- НОВОЕ: Впиши сюда описание игры -->
+            <p class="game-description">
+                Здесь напиши краткое описание новой игры. Расскажи, что это за жанр, какие основные механики, чем игра может заинтересовать игрока или издателя. Текст автоматически отформатируется с отступами по краям.
+            </p>
+
+            <video src="https://github.com/AMA-gd/Iron-Sport/releases/download/1.0/Trailer.mp4" controls preload="metadata" poster="ССЫЛКА_НА_ПОСТЕР.jpg"></video>
+            
+            <div class="game-link-block">
+                Ссылка на игру: <a href="ССЫЛКА_НА_ITCH_IO" target="_blank" class="game-link">ССЫЛКА_НА_ITCH_IO</a>
+            </div>
+            
+            <hr class="divider">
+        </div>
+
+        <!-- ================= БЛОК ИГРЫ №2 ================= -->
+        <div class="game-section">
+            <h2 class="game-title">Обучабщее видео</h2>
+            <p class="game-description">
+                Описание второй игры. Укажи её особенности, целевую аудиторию, платформу (например, мобильная игра для Android) и другие важные детали.
+            </p>
+
+            <video src="https://github.com/AMA-gd/Iron-Sport/releases/download/1.0/Tutorial.mp4" controls preload="metadata" poster="ССЫЛКА_НА_ПОСТЕР_2.jpg"></video>
+            
+            <div class="game-link-block">
+                Ссылка на игру: <a href="ССЫЛКА_НА_ITCH_IO_2" target="_blank" class="game-link">ССЫЛКА_НА_ITCH_IO_2</a>
+            </div>
+            
+            <hr class="divider">
+        </div>
+
+<!-- ================= БЛОК ИГРЫ №3 ================= -->
+        <div class="game-section">
+            <h2 class="game-title">Игровой процесс</h2>
+            <p class="game-description">
+                Описание второй игры. Видео записано со смартфона
+            </p>
+
+            <video src="https://github.com/AMA-gd/Iron-Sport/releases/download/1.0/Gameplay.mp4" controls preload="metadata" poster="ССЫЛКА_НА_ПОСТЕР_2.jpg"></video>
+            
+            <div class="game-link-block">
+                Ссылка на игру: <a href="ССЫЛКА_НА_ITCH_IO_2" target="_blank" class="game-link">ССЫЛКА_НА_ITCH_IO_2</a>
+            </div>
+            
+            <hr class="divider">
+        </div>
+
+          </div>
+</body>
+</html>
